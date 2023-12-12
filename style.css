@@ -1,0 +1,5 @@
+.linkedlist, .stack, .Sq, .Cq, .Dq{
+    color: #000;
+    background: #fff;
+    visibility: hidden;
+}

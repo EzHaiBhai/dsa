@@ -2,9 +2,49 @@ const copyToClipboard = async () => {
     try {
       const element = document.querySelector(".user-select-all");
       await navigator.clipboard.writeText(element.textContent);
-      // Optional: Provide feedback or perform additional actions upon successful copy
     } catch (error) {
       console.error("Failed to copy to clipboard:", error);
-      // Optional: Handle and display the error to the user
+    }
+  };
+
+  
+  const copyLL = async () => {
+    try {
+      const element = document.querySelector(".linkedlist");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
+    }
+  };
+  const copyStack = async () => {
+    try {
+      const element = document.querySelector(".stack");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
+    }
+  };
+  const copySq = async () => {
+    try {
+      const element = document.querySelector(".Sq");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
+    }
+  };
+  const copyCq = async () => {
+    try {
+      const element = document.querySelector(".Cq");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
+    }
+  };
+  const copyDq = async () => {
+    try {
+      const element = document.querySelector(".Dq");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
     }
   };
