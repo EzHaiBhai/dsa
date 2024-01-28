@@ -48,3 +48,43 @@ const copyToClipboard = async () => {
       console.error("Failed to copy to clipboard:", error);
     }
   };
+  const copySEL = async () => {
+    try {
+      const element = document.querySelector(".sel");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
+    }
+  };
+  const copyBUB = async () => {
+    try {
+      const element = document.querySelector(".bub");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
+    }
+  };
+  const copyINS = async () => {
+    try {
+      const element = document.querySelector(".ins");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
+    }
+  };
+  const copyLS = async () => {
+    try {
+      const element = document.querySelector(".ls");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
+    }
+  };
+  const copyBS = async () => {
+    try {
+      const element = document.querySelector(".bs");
+      await navigator.clipboard.writeText(element.textContent);
+    } catch (error) {
+      console.error("Failed to copy to clipboard:", error);
+    }
+  };
